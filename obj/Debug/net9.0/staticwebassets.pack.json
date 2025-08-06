@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/obj/Debug/net9.0/scopedcss/projectbundle/HotBubbleCanteen.bundle.scp.css",
+      "PackagePath": "staticwebassets/HotBubbleCanteen.f30kx78nby.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Drink_Coke.png",
+      "PackagePath": "staticwebassets/images/Drink_Coke.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Drink_IcedTea.png",
+      "PackagePath": "staticwebassets/images/Drink_IcedTea.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Drink_LemonWater.png",
+      "PackagePath": "staticwebassets/images/Drink_LemonWater.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Drink_SparklingWater.png",
+      "PackagePath": "staticwebassets/images/Drink_SparklingWater.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Drink_Sprite.png",
+      "PackagePath": "staticwebassets/images/Drink_Sprite.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Drink_TsingtaoBeer.png",
+      "PackagePath": "staticwebassets/images/Drink_TsingtaoBeer.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Logo.jpg",
+      "PackagePath": "staticwebassets/images/Logo.jpg"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_BeefSlices.png",
+      "PackagePath": "staticwebassets/images/Meat_BeefSlices.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_BeefTendon.png",
+      "PackagePath": "staticwebassets/images/Meat_BeefTendon.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_ChickenThigh.png",
+      "PackagePath": "staticwebassets/images/Meat_ChickenThigh.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_DuckBreast.png",
+      "PackagePath": "staticwebassets/images/Meat_DuckBreast.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_FishFillet.png",
+      "PackagePath": "staticwebassets/images/Meat_FishFillet.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_LambSlices.png",
+      "PackagePath": "staticwebassets/images/Meat_LambSlices.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_LuncheonMeat.png",
+      "PackagePath": "staticwebassets/images/Meat_LuncheonMeat.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_PorkBelly.png",
+      "PackagePath": "staticwebassets/images/Meat_PorkBelly.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_Shrimp.png",
+      "PackagePath": "staticwebassets/images/Meat_Shrimp.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Meat_Tripe.png",
+      "PackagePath": "staticwebassets/images/Meat_Tripe.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Membership_Bronze.png",
+      "PackagePath": "staticwebassets/images/Membership_Bronze.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Membership_Gold.png",
+      "PackagePath": "staticwebassets/images/Membership_Gold.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Membership_Silver.png",
+      "PackagePath": "staticwebassets/images/Membership_Silver.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Pic1.png",
+      "PackagePath": "staticwebassets/images/Pic1.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Pic2.png",
+      "PackagePath": "staticwebassets/images/Pic2.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_EnokiMushrooms.png",
+      "PackagePath": "staticwebassets/images/Vegetable_EnokiMushrooms.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_Lettuce.png",
+      "PackagePath": "staticwebassets/images/Vegetable_Lettuce.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_LotusRoot.png",
+      "PackagePath": "staticwebassets/images/Vegetable_LotusRoot.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_MungBeanSprouts.png",
+      "PackagePath": "staticwebassets/images/Vegetable_MungBeanSprouts.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_NapaCabbage.png",
+      "PackagePath": "staticwebassets/images/Vegetable_NapaCabbage.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_PotatoSlices.png",
+      "PackagePath": "staticwebassets/images/Vegetable_PotatoSlices.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_SeaweedKnots.png",
+      "PackagePath": "staticwebassets/images/Vegetable_SeaweedKnots.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_Spinach.png",
+      "PackagePath": "staticwebassets/images/Vegetable_Spinach.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_Tofu.png",
+      "PackagePath": "staticwebassets/images/Vegetable_Tofu.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/Vegetable_WinterMelon.png",
+      "PackagePath": "staticwebassets/images/Vegetable_WinterMelon.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Drink_Coke.png",
+      "PackagePath": "staticwebassets/images/menu/Drink_Coke.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Drink_IcedTea.png",
+      "PackagePath": "staticwebassets/images/menu/Drink_IcedTea.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Drink_LemonWater.png",
+      "PackagePath": "staticwebassets/images/menu/Drink_LemonWater.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Drink_SparklingWater.png",
+      "PackagePath": "staticwebassets/images/menu/Drink_SparklingWater.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Drink_Sprite.png",
+      "PackagePath": "staticwebassets/images/menu/Drink_Sprite.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Drink_TsingtaoBeer.png",
+      "PackagePath": "staticwebassets/images/menu/Drink_TsingtaoBeer.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_BeefSlices.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_BeefSlices.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_BeefTendon.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_BeefTendon.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_ChickenThigh.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_ChickenThigh.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_DuckBreast.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_DuckBreast.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_FishFillet.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_FishFillet.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_LambSlices.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_LambSlices.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_LuncheonMeat.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_LuncheonMeat.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_PorkBelly.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_PorkBelly.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_Shrimp.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_Shrimp.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Meat_Tripe.png",
+      "PackagePath": "staticwebassets/images/menu/Meat_Tripe.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_EnokiMushrooms.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_EnokiMushrooms.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_Lettuce.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_Lettuce.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_LotusRoot.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_LotusRoot.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_MungBeanSprouts.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_MungBeanSprouts.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_NapaCabbage.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_NapaCabbage.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_PotatoSlices.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_PotatoSlices.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_SeaweedKnots.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_SeaweedKnots.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_Spinach.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_Spinach.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_Tofu.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_Tofu.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/images/menu/Vegetable_WinterMelon.png",
+      "PackagePath": "staticwebassets/images/menu/Vegetable_WinterMelon.png"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/rfl/Desktop/HotBubbleCanteen/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.HotBubbleCanteen.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.HotBubbleCanteen.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.HotBubbleCanteen.props",
+      "PackagePath": "build\\HotBubbleCanteen.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.HotBubbleCanteen.props",
+      "PackagePath": "buildMultiTargeting\\HotBubbleCanteen.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.HotBubbleCanteen.props",
+      "PackagePath": "buildTransitive\\HotBubbleCanteen.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

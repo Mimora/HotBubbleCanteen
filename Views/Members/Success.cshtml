@@ -1,0 +1,20 @@
+@model HotBubbleCanteen.Models.Member
+@{
+    ViewData["Title"] = "Registration Successful";
+}
+
+<div class="container text-center mt-5">
+    <h2 class="text-success mb-4">Thank you for registering!</h2>
+
+    <p class="fs-5">
+        <strong>Your Membership Number:</strong> @Model.Id
+    </p>
+    <p class="fs-5 text-primary">
+        <strong>Your Promo Code:</strong> @Model.PromoCode
+    </p>
+    <p class="text-danger">
+        Please remember this code, and do not share it with others!
+    </p>
+
+    <a href="/" class="btn btn-outline-primary mt-3">Return to Home</a>
+</div>

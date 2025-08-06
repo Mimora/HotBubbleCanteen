@@ -1,0 +1,161 @@
+@model HotBubbleCanteen.Models.Member
+
+@{
+    ViewData["Title"] = "Membership Registration";
+}
+
+<!-- Header Banner -->
+<div class="text-center text-white py-4 mb-4 rounded" style="background-color: #74B3E7;">
+    <h2 class="mb-0">Membership Registration</h2>
+</div>
+
+<form asp-action="Create" method="post" id="membershipForm">
+    <div class="container">
+        <!-- Two-column Fields -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">First Name <span class="text-danger">*</span>
+                    <span class="text-danger ms-1" id="firstNameError" style="display:none;">required</span>
+                </label>
+                <input name="FirstName" id="FirstName" class="form-control" />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Last Name <span class="text-danger">*</span>
+                    <span class="text-danger ms-1" id="lastNameError" style="display:none;">required</span>
+                </label>
+                <input name="LastName" id="LastName" class="form-control" />
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label">Phone Number <span class="text-danger">*</span>
+                    <span class="text-danger ms-1" id="phoneError" style="display:none;">required</span>
+                </label>
+                <input name="PhoneNumber" id="PhoneNumber" class="form-control" />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Email</label>
+                <input name="Email" id="Email" class="form-control" />
+            </div>
+        </div>
+
+        <!-- Membership Level -->
+        <div class="mb-4">
+            <label class="form-label fw-bold mb-2">Choose your membership level</label>
+            <div class="d-flex justify-content-between">
+                <div class="text-center">
+                    <label class="form-check d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="MembershipLevel" value="3" />
+                        <img src="~/images/Membership_Gold.png" class="hover-img" style="width:100px; cursor:pointer;" />
+                    </label>
+                    <div class="mt-2">-10%</div>
+                </div>
+                <div class="text-center">
+                    <label class="form-check d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="MembershipLevel" value="2" />
+                        <img src="~/images/Membership_Silver.png" class="hover-img" style="width:100px; cursor:pointer;" />
+                    </label>
+                    <div class="mt-2">-5%</div>
+                </div>
+                <div class="text-center">
+                    <label class="form-check d-flex align-items-center">
+                        <input class="form-check-input me-2" type="radio" name="MembershipLevel" value="1" />
+                        <img src="~/images/Membership_Bronze.png" class="hover-img" style="width:100px; cursor:pointer;" />
+                    </label>
+                    <div class="mt-2">No Discount</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Terms -->
+        <div class="border rounded p-3 mb-3">
+            <h5 class="fw-bold">Terms and Conditions</h5>
+            <ul>
+                <li>Provide accurate and complete information.</li>
+                <li>Use your membership responsibly and in accordance with restaurant policies.</li>
+                <li>Comply with all applicable local laws and regulations.</li>
+                <li>Acknowledge that membership benefits, discounts, and promotions may vary and are subject to change.</li>
+            </ul>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="termsCheck" />
+                <label class="form-check-label" for="termsCheck">
+                    I understand and accept these terms
+                </label>
+            </div>
+        </div>
+
+        <!-- Submit -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-success" id="submitBtn" disabled>Submit</button>
+        </div>
+    </div>
+</form>
+
+<!-- Style & Script -->
+<style>
+    .hover-img:hover {
+        filter: brightness(1.1);
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+    }
+</style>
+
+@section Scripts {
+<script>
+    const form = document.getElementById('membershipForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const termsCheck = document.getElementById('termsCheck');
+
+    const fields = [
+        { id: "FirstName", error: "firstNameError" },
+        { id: "LastName", error: "lastNameError" },
+        { id: "PhoneNumber", error: "phoneError" }
+    ];
+
+    fields.forEach(field => {
+        const input = document.getElementById(field.id);
+        const error = document.getElementById(field.error);
+
+        input.addEventListener("blur", () => {
+            if (input.value.trim() === "") {
+                error.style.display = "inline";
+            } else {
+                error.style.display = "none";
+            }
+            validateForm();
+        });
+
+        input.addEventListener("input", () => {
+            if (input.value.trim() !== "") {
+                error.style.display = "none";
+            }
+            validateForm();
+        });
+    });
+
+    termsCheck.addEventListener("change", validateForm);
+
+    document.querySelectorAll(".form-check input[type=radio]").forEach(radio => {
+        radio.addEventListener("change", validateForm);
+    });
+
+    document.querySelectorAll(".form-check img").forEach(img => {
+        img.addEventListener("click", () => {
+            const radio = img.parentElement.querySelector("input[type=radio]");
+            if (radio) {
+                radio.checked = true;
+                validateForm();
+            }
+        });
+    });
+
+    function validateForm() {
+        const allFilled = fields.every(f => document.getElementById(f.id).value.trim() !== "");
+        const hasAgreed = termsCheck.checked;
+        const levelSelected = document.querySelector("input[name='MembershipLevel']:checked") !== null;
+
+        submitBtn.disabled = !(allFilled && hasAgreed && levelSelected);
+    }
+</script>
+}

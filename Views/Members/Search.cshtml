@@ -1,0 +1,33 @@
+@* Views/Members/Search.cshtml *@
+@model HotBubbleCanteen.Models.Member
+
+@{
+    ViewData["Title"] = "Search Membership";
+}
+
+<div class="text-center bg-custom-blue text-white py-4 mb-4 rounded">
+    <h2 class="mb-0">Search Your Membership</h2>
+</div>
+
+<form asp-action="SearchResult" method="post">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label class="form-label">First Name</label>
+                <input asp-for="FirstName" class="form-control" required />
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Last Name</label>
+                <input asp-for="LastName" class="form-control" required />
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Phone Number</label>
+                <input asp-for="PhoneNumber" class="form-control" required />
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>

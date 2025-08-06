@@ -1,0 +1,47 @@
+﻿@model List<HotBubbleCanteen.Models.Dish>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container mt-4">
+    <div class="text-center mb-5">
+        <h1 class="mb-4">Welcome to Hot Bubble Canteen!</h1>
+
+        <img src="/images/Logo.jpg" alt="Hot Bubble Logo" style="max-width: 600px;" class="img-fluid rounded mb-3">
+
+        <p class="lead text-muted">
+            Experience the warmth of authentic Chinese hotpot, where every dish is a celebration of taste and tradition.
+        </p>
+
+        <!-- 🔽 新增：并列双图区域 -->
+        <div class="row justify-content-center mb-5 g-5">
+            <div class="col-md-5">
+                <img src="/images/Pic1.png" class="img-fluid rounded shadow" alt="Hotpot experience 1">
+            </div>
+            <div class="col-md-5">
+                <img src="/images/Pic2.png" class="img-fluid rounded shadow" alt="Hotpot experience 2">
+            </div>
+        </div>
+
+    </div>
+
+    @* 菜品展示部分继续在 container 内 *@
+</div>
+
+@foreach (var dish in Model)
+{
+    @* <div class="row align-items-center mb-4 p-3 border rounded shadow-sm"> *@
+    <div class="row align-items-center mb-4 p-3 border rounded shadow-sm mx-auto" style="max-width: 960px;">
+        <div class="col-md-3 text-center">
+            <img src="@dish.ImagePath" alt="@dish.Name" class="img-fluid rounded" style="max-height: 200px;" />
+        </div>
+        <div class="col-md-9">
+            <h4>@dish.Name</h4>
+            <p class="text-muted mb-1">Type: @dish.Type</p>
+            <p class="mb-1">Price: <strong>$@dish.Price</strong></p>
+            <p class="text-secondary">@dish.Description</p>
+        </div>
+    </div>
+}
+</div>

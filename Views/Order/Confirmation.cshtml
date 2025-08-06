@@ -1,0 +1,46 @@
+@model Order
+
+<h2>Order Confirmation</h2>
+
+<p><strong>Order ID:</strong> @Model.Id</p>
+<p><strong>Customer:</strong> @Model.CustomerName</p>
+<p><strong>Table Number:</strong> @Model.TableNumber</p>
+<p><strong>Order Time:</strong> @Model.OrderTime.ToString("yyyy-MM-dd HH:mm")</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Dish</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>@item.Dish.Name</td>
+                <td>@item.Dish.Price.ToString("C")</td>
+                <td>@item.Quantity</td>
+                <td>@((item.Dish.Price * item.Quantity).ToString("C"))</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@{
+    var total = Model.Items.Sum(i => i.Dish.Price * i.Quantity);
+    var discount = ViewBag.Discount != null ? (decimal)ViewBag.Discount : 0m;
+    var discountedTotal = total * (1 - discount);
+}
+
+<p><strong>Total:</strong> @total.ToString("C")</p>
+
+@if (discount > 0)
+{
+    <p class="text-success"><strong>Discount Applied:</strong> -@(discount * 100)%</p>
+    <p><strong>Final Price:</strong> @discountedTotal.ToString("C")</p>
+}
+
+<a href="/Order/Menu" class="btn btn-primary">Back to Menu</a>

@@ -1,0 +1,22 @@
+@* Views/Members/SearchResult.cshtml *@
+@model HotBubbleCanteen.Models.Member
+
+@{
+    ViewData["Title"] = "Membership Details";
+}
+
+<div class="container mt-4">
+    <h3>Membership Details</h3>
+    <p><strong>Membership Number:</strong> @Model.Id</p>
+    <p><strong>First Name:</strong> @Model.FirstName</p>
+    <p><strong>Last Name:</strong> @Model.LastName</p>
+    <p><strong>Phone Number:</strong> @Model.PhoneNumber</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Membership Level:</strong> @Model.MembershipLevel</p>
+    <p><strong>Promo Code:</strong> @Model.PromoCode</p>
+
+    <form asp-action="ConfirmDelete" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit" class="btn btn-danger mt-3">Delete This Membership</button>
+    </form>
+</div>

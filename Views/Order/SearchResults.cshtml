@@ -1,0 +1,49 @@
+@model List<Order>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<h2>Search Results</h2>
+
+@if (!Model.Any())
+{
+    <p>No orders found.</p>
+}
+else
+{
+    foreach (var order in Model)
+    {
+        <hr />
+        <p><strong>Order ID:</strong> @order.Id</p>
+        <p><strong>Customer:</strong> @order.CustomerName</p>
+        <p><strong>Table Number:</strong> @order.TableNumber</p>
+        <p><strong>Order Time:</strong> @order.OrderTime.ToString("yyyy-MM-dd HH:mm")</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in order.Items)
+                {
+                    <tr>
+                        <td>@item.Dish.Name</td>
+                        <td>@item.Dish.Price.ToString("C")</td>
+                        <td>@item.Quantity</td>
+                        <td>@((item.Dish.Price * item.Quantity).ToString("C"))</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <p><strong>Total:</strong> @((order.Items.Sum(i => i.Dish.Price * i.Quantity)).ToString("C"))</p>
+    }
+}
+
+<a href="/Order/Search" class="btn btn-secondary mt-3">Back to Search</a>

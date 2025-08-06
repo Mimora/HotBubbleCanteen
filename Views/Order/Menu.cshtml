@@ -1,0 +1,81 @@
+@model List<IGrouping<string, Dish>>
+
+@{
+    ViewData["Title"] = "Order Menu";
+    //var grouped = Model.GroupBy(d => d.Type);
+}
+
+<h2>Hot Bubble Canteen - Order Menu</h2>
+
+<form asp-action="SubmitOrder" method="post">
+    <div>
+        <label>Table Number:</label>
+        <input type="text" name="TableNumber" required />
+
+        <label>Customer Name:</label>
+        <input type="text" name="CustomerName" required />
+    </div>
+
+    <br />
+
+    @foreach (var group in Model)
+    {
+        <div class="mb-5">
+            <h4>@group.Key</h4>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width: 50%;">Dish</th>
+                            <th class="text-end" style="width: 25%;">Price</th>
+                            <th class="text-end" style="width: 25%;">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var dish in group)
+                        {
+                            <tr>
+                                <td>@dish.Name</td>
+                                <td class="text-end">@dish.Price.ToString("C")</td>
+                                <td class="text-end">
+                                    <input type="number" name="quantities[@dish.Id]" min="0" value="0"
+                                        class="form-control form-control-sm d-inline-block" style="max-width: 80px;" />
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+
+
+    @* @foreach (var group in Model)
+    {
+        <h4>@group.Key</h4>
+        <table class="table">
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            @foreach (var dish in group)
+            {
+                <tr>
+                    <td>@dish.Name</td>
+                    <td>$@dish.Price</td>
+                    <td>
+                        <input type="number" name="quantities[@dish.Id]" min="0" value="0" />
+                    </td>
+                </tr>
+            }
+        </table>
+    } *@
+
+    <div class="mb-3"></div>
+    <label for="PromoCode">Promo Code (optional):</label>
+    <input type="text" name="promoCode" class="form-control" style="max-width: 300px;" />
+    </div>
+
+    <button type="submit">Submit Order</button>
+</form>
